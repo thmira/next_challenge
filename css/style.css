@@ -1,28 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+body {
     background: #000000 !important;
     background-image: linear-gradient(115.3deg, #454047 11.15%, rgba(79, 81, 141, 0.494204) 54.49%, rgba(81, 74, 155, 0) 96.84%)!important;
-    position: relative;
-    width: 1440px;
-    height: 960px;
+    width: 100%;
+    height: 100vh;
     margin-top: 30px !important;
 }
 
 body h1 {
     color: white;
-    margin-left: 8.4em;
+    margin-left: 8.6em;
     font-size: 70px;
 }
 
+body h6 {
+    color: white;
+    text-align: center;
+}
 
 header{
     position: absolute;
     text-indent: 10px;
     color: #EAEAEF;
     font-size: 30px;
-    padding: 2em;
+    padding: 1em;
+}
+
+header a {
+    color: #EAEAEF;
+}
+
+main.cards {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    color: #434343;
+    padding: 3em;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.1);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-width: 256px;
+    margin-left: 56px;
+}
+
+main.cards section.card:first-child{
+    margin-left: 0px;
+}
+
+main.cards section.card h3 {
+    color: #EAEAEF;
+    font-size: 25px;
+}
+
+main.cards section.card span {
+    color: #EAEAEF;
+}
+
+main.cards section.icon {
+    color: #EAEAEF;
+    margin-top: 40px;
+    margin-left: 5px;
+    font-size: 50px;
+}
+
+main.cards section.icon a {
+    color: #EAEAEF;
+    opacity: 70%;
+}
+
+footer img{
+    margin-left: 37em;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 4px;
+    margin-top: 90px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EAEAEF;
+    font-size: 5em;
+    margin-top: 54px;
 }
 
 .side-bar {
@@ -36,5 +111,5 @@ header{
 .carousel {
     width: 60em;
     margin-left: 6em;
-    margin-top: -30em;
+    margin-top: -33em;
 }
