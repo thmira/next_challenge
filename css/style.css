@@ -43,6 +43,7 @@ main.cards {
     justify-content: center;
     border-radius: 25px;
     color: #434343;
+    margin-left: 80px;
     padding: 3em;
 }
 
@@ -78,17 +79,16 @@ main.cards section.icon {
 }
 
 main.cards section.icon a {
-    color: #EAEAEF;
-    opacity: 70%;
+    color: #434343;
 }
 
 footer img{
-    margin-left: 37em;
+    margin-left: 28.7em;
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 450px;
     border-radius: 4px;
-    margin-top: 90px;
+    margin-top: 20px;
 }
 
 .home {
